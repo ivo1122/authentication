@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <script defer src="login.js"></script>
+
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cont">
+        <div class="header">
+          <h2>Login</h2>
+        </div>
+        <form class="login" id="form">
+          <div class="form-control">
+            <label>Username</label>
+            <input type="text" name="username" id="username" />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label>Email</label>
+            <input type="email" name="email" id="email" />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label for="username">Password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              id="password"
+            />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <p>Don't have an account yet? <a href="index.html">Sign up!</a></p>
+          </div>
+
+          <button id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
